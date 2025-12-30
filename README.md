@@ -1,5 +1,5 @@
 # AI Camera Module – Smart Safety System  
-*(Fire, Smoke & Violence Detection)*
+*(Fire & Smoke Detection)*
 
 ## 📌 Module Overview
 This repository contains the **AI Camera module** developed as part of the project:
@@ -65,41 +65,6 @@ Fire & Smoke Detection Dataset (Roboflow):
 
 ---
 
-## ⚙️ Environment Setup
-```bash
-pip install ultralytics opencv-python
-```
-
----
-
-## ▶️ Real-Time Detection (Webcam)
-```python
-import cv2
-from ultralytics import YOLO
-
-model = YOLO("model.pt")  # yolov8n.pt / yolov11n.pt
-CONFIDENCE_THRESHOLD = 0.4
-
-cap = cv2.VideoCapture(0)
-
-while True:
-    ret, frame = cap.read()
-    if not ret:
-        break
-
-    results = model(frame, conf=CONFIDENCE_THRESHOLD)[0]
-    annotated_frame = results.plot()
-
-    cv2.imshow("AI Camera – Fire & Smoke Detection", annotated_frame)
-
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-cap.release()
-cv2.destroyAllWindows()
-```
-
----
 
 ## 🧩 Integration with the Full AI–IoT System
 The AI Camera module provides:
@@ -112,14 +77,17 @@ These outputs are designed to be:
 - Displayed on a **web or mobile dashboard**
 - Combined with IoT sensor data in the full system
 
+<img width="1919" height="976" alt="image" src="https://github.com/user-attachments/assets/41636338-54be-4fe6-adf5-8160860f4bc9" />
+<img width="1072" height="676" alt="image" src="https://github.com/user-attachments/assets/8ba9d326-48a0-4e5e-b7dd-b005277b0a04" />
+
 ---
 
 ## 📌 References
 - Ultralytics YOLO:  
   https://github.com/ultralytics/ultralytics  
 
-- AI JAM 2023 TOPVN:  
-  https://github.com/HocJ2me/AI-JAM-2023-TOPVN  
+- Thingspeak:  
+  https://thingspeak.mathworks.com/  
 
 ---
 
