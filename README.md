@@ -62,7 +62,8 @@ This repository covers the parts implemented by **Thai Dieu Phuong**, including:
 ## 📂 Dataset
 Fire & Smoke Detection Dataset (Roboflow):  
 🔗 https://universe.roboflow.com/hallmark/fire-smoke-qpywc/dataset/1
-
+Ultralytics:    
+🔗 https://hub.ultralytics.com/models/gmKe51QjQbXjPWyjWadw?zarsrc=410&utm_source=zalo&utm_medium=zalo&utm_campaign=zalo&tab=train    
 ---
 
 
