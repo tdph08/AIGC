@@ -78,6 +78,7 @@ These outputs are designed to be:
 - Displayed on a **web or mobile dashboard**
 - Combined with IoT sensor data in the full system
 
+<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/2284684b-9eb3-4d91-a85b-3a2ae1522e88" />
 <img width="1919" height="976" alt="image" src="https://github.com/user-attachments/assets/41636338-54be-4fe6-adf5-8160860f4bc9" />
 <img width="1072" height="676" alt="image" src="https://github.com/user-attachments/assets/8ba9d326-48a0-4e5e-b7dd-b005277b0a04" />
 
